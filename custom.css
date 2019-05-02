@@ -9,6 +9,6 @@ html, body {
 
 /*centering image of happy-dog*/
 #happy-dog{
- url('images/happy-dog.jpg')no-repeat center;
- background-size:cover;
+text-align:center;    
+
 }
