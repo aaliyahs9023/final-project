@@ -8,5 +8,6 @@ html, body {
 }
 
 /*centering image of happy-dog*/
- url('img/happy-dog.jpg')no-repeat center;
- background-size:cover;
+
+/* url('img/happy-dog.jpg')no-repeat center;
+ background-size:cover;*/
