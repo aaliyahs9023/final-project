@@ -12,3 +12,30 @@ html, body {
 text-align:center;    
 
 }
+  @media(min-width:768px){
+      h1{
+        font-size:60px
+      }
+      h2{
+          font-size:40px;
+      }
+    }
+    /*md+*/
+    @media(min-width:992px){
+        h1{
+        font-size:80px
+      }
+      h2{
+          font-size:60px;
+      }
+    }
+    
+    /*lg*/
+    @media(min-width:1200px){
+        h1{
+        font-size:100px
+      }
+      h2{
+           font-size:120px
+      }
+    }
