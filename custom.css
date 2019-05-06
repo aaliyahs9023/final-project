@@ -12,7 +12,10 @@ html, body {
 text-align:center;    
 
 }
+h2{
+    font-family: 'Lora', serif;
 
+}
 #care{
     height:100%;
     width:90%;
