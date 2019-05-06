@@ -18,17 +18,13 @@ h2{
 }
 #care{
     height:100%;
-    width:90%;
+    width:100%;
   color:white;
  text-align:center;
  margin-left:70px;
-    background: linear-gradient(
-        rgba(0,0,0,0),
-        rgba(0,0,0,0)
-      ),
+ background: lightpink;
 
- url('images/black-dog.jpg')no-repeat center;
- background-size:cover;
+
 }
   @media(min-width:768px){
       h1{
