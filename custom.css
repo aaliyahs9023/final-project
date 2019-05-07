@@ -1,54 +1,66 @@
-html, body {
-      width: 100%;
-      height: 100%;
-    }
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
 /*title doggo adoption*/
-.jumbotron{
-    text-align:center;
+
+.jumbotron {
+    text-align: center;
 }
 
 /*centering image of happy-dog*/
-#happy-dog{
-text-align:center;    
+
+#happy-dog {
+    text-align: center;
 
 }
-h2{
+
+h2 {
     font-family: 'Lora', serif;
 
 }
 
-h1{
-  text-align:center;    
+h1 {
+    text-align: center;
 }
 
-#care{
-    height:100%;
-    width:90%;
-  color:white;
- text-align:center;
- margin-left:90px;
- background: lightpink;
-
-
+#care {
+    width: 90%;
+    color: white;
+    text-align: center;
+    background: lightpink;
+    margin: 0 auto;
 }
 
 
-p{
- font-size:15px; 
-  font-family: 'Lora', serif;
+p {
+    font-size: 15px;
+    font-family: 'Lora', serif;
 }
 
 
-#places{
-    text-align:center;
-     height:100%;
-    width:90%;
-   background: tan; 
-   margin-left:90px;
-    
+#places {
+    text-align: center;
+    width: 90%;
+    background: tan;
+    margin: 0 auto;
+
 }
 
 
+#adoption {
+    width: 90%;
+    text-align: center;
+    background: SlateGrey;
+    color: white;
+    margin: 0 auto;
+}
+
+/*sm*/
+
+<<<<<<< HEAD
 #adoption{
     height:40%;
     width:90%;
@@ -56,32 +68,35 @@ p{
     margin-left:90px;
    background: SlateGrey; 
    color:white;
+=======
+@media(min-width:768px) {
+    h1 {
+        font-size: 60px
+    }
+    h2 {
+        font-size: 20px;
+    }
+>>>>>>> 1b617db82db90935603d58214a75e3918cb875cb
 }
-/*sm*/
-  @media(min-width:768px){
-      h1{
-        font-size:60px
-      }
-      h2{
-          font-size:20px;
-      }
+
+/*md+*/
+
+@media(min-width:992px) {
+    h1 {
+        font-size: 80px
     }
-    /*md+*/
-    @media(min-width:992px){
-        h1{
-        font-size:80px
-      }
-      h2{
-          font-size:30px;
-      }
+    h2 {
+        font-size: 30px;
     }
-    
-    /*lg*/
-    @media(min-width:1200px){
-        h1{
-        font-size:100px
-      }
-      h2{
-           font-size:50px
-      }
+}
+
+/*lg*/
+
+@media(min-width:1200px) {
+    h1 {
+        font-size: 100px
     }
+    h2 {
+        font-size: 50px
+    }
+}

@@ -34,7 +34,11 @@
         //my own jQuery/javascript
         $(function() { //Don't delete or edit this
             //code goes here
-
+            $('img').hide()
+            $("#black").click(function() {
+                $("#photo").fadeIn(800)
+                $("#hidden").hide()
+            });
         });
     </script>
 </head>
@@ -47,19 +51,20 @@
                 <a class="navbar-brand" href="#">HoundsforHomes</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#info">Info</a></li>
                 <li><a href="#care">Caring for your dog</a></li>
-                <li><a href="#">Great places to take your dog!</a></li>
-                <li><a href="#">Adoption centers and Contacts</a></li>
+                <li><a href="#places">Great places to take your dog!</a></li>
+                <li><a href="#adoption">Adoption centers and Contacts</a></li>
             </ul>
         </div>
     </nav>
 
     <!--header-->
     <div class="jumbotron">
-        <img src="images/black-dog.jpg" alt="Picture of black dog" />
-        <h1>The Black Dog</h1>
+        <img src="images/black-dog.jpg" alt="Picture of black dog" id="photo" />
+        <h1 id="black">The Black Dog</h1>
+        <h4 id="hidden">click the above text!</h4>
     </div>
 
     <!--info-->
@@ -147,7 +152,7 @@
 
 
     <!--caring for your dog-->
-    <div id="care">
+    <div class="contain" id="care">
 
         <h1>How to take care of your dog...</h1>
 
@@ -202,16 +207,19 @@
     <div id='adoption'>
         <h2>Adoption centers nearby and contact information</h2>
         <h3><a href='https://www.pawsinparadisenyc.com/'> Paws In Paradise</a> </h3>
+
         <!--<li> <span class="glyphicon glyphicon-earphone"> 718-768-1888</span></li>-->
-        <span class="glyphicon glyphicon-envelope"> answers@pawsinparadisenyc.com</span><!--
+        <span class="glyphicon glyphicon-envelope"> answers@pawsinparadisenyc.com</span>
+        <!--
         <li><span class="glyphicon glyphicon-map-marker"></span> 410 5th Ave Brooklyn, NY 11215</li-->
- <h3><a href='https://www.nyanimalrescue.org/'>Shelter</a></h3>
-<!--        <li> <span class="glyphicon glyphicon-earphone"> 718.436.5163</span></li>-->
-    <span class="glyphicon glyphicon-envelope"> info@nyanimalrescue.org</span>
+        <h3><a href='https://www.nyanimalrescue.org/'>Shelter</a></h3>
+        <!--        <li> <span class="glyphicon glyphicon-earphone"> 718.436.5163</span></li>-->
+        <span class="glyphicon glyphicon-envelope"> info@nyanimalrescue.org</span>
         <!--<li><span class="glyphicon glyphicon-map-marker"></span>153 East 3rd Street Brooklyn, New York 11218</li>-->
- <h3><a href='http://tiny.cc/6cub6y'>Purebred</a></h3>
+        <h3><a href='http://tiny.cc/6cub6y'>Purebred</a></h3>
         <span class="glyphicon glyphicon-earphone"> (866)-859-287</span>
-       
+
+
     </div>
 </body>
 
