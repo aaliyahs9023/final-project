@@ -16,16 +16,48 @@ h2{
     font-family: 'Lora', serif;
 
 }
+
+h1{
+  text-align:center;    
+}
+
 #care{
     height:100%;
-    width:100%;
+    width:90%;
   color:white;
  text-align:center;
- margin-left:70px;
+ margin-left:90px;
  background: lightpink;
 
 
 }
+
+
+p{
+ font-size:15px; 
+  font-family: 'Lora', serif;
+}
+
+
+#places{
+    text-align:center;
+     height:100%;
+    width:90%;
+   background: tan; 
+   margin-left:90px;
+    
+}
+
+
+#adoption{
+    height:35%;
+    width:90%;
+    text-align:center;
+    margin-left:90px;
+   background: SlateGrey; 
+   color:white;
+}
+/*sm*/
   @media(min-width:768px){
       h1{
         font-size:60px
