@@ -44,10 +44,12 @@ p {
 
 
 #places {
+    color:white;
     text-align: center;
     width:100%;
-    background: saddlebrown;
+    background: #A0522D;
 }
+
 
 
 
