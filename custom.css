@@ -25,12 +25,14 @@ h2 {
 h1 {
     text-align: center;
 }
-
+.jumbotron{
+   background: #9ACD32;
+}
 #care {
     width: 90%;
     color: white;
     text-align: center;
-    background: lightpink;
+    background: olivedrab;
     margin: 0 auto;
 }
 
@@ -43,32 +45,16 @@ p {
 
 #places {
     text-align: center;
-    width: 90%;
-    background: tan;
-    margin: 0 auto;
-
+    width:100%;
+    background: saddlebrown;
 }
 
 
-#adoption {
-    width: 90%;
-    text-align: center;
-    background: SlateGrey;
-    color: white;
-    margin: 0 auto;
-}
 
 /*sm*/
 
-<<<<<<< HEAD
-#adoption{
-    height:40%;
-    width:90%;
-    text-align:center;
-    margin-left:90px;
-   background: SlateGrey; 
-   color:white;
-=======
+
+   
 @media(min-width:768px) {
     h1 {
         font-size: 60px
@@ -76,8 +62,7 @@ p {
     h2 {
         font-size: 20px;
     }
->>>>>>> 1b617db82db90935603d58214a75e3918cb875cb
-}
+
 
 /*md+*/
 
