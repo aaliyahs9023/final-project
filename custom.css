@@ -25,9 +25,11 @@ h2 {
 h1 {
     text-align: center;
 }
-.jumbotron{
-   background: #9ACD32;
+
+.jumbotron {
+    background: #9ACD32;
 }
+
 #care {
     width: 90%;
     color: white;
@@ -44,9 +46,9 @@ p {
 
 
 #places {
-    color:white;
+    color: white;
     text-align: center;
-    width:100%;
+    width: 100%;
     background: #A0522D;
 }
 
@@ -55,8 +57,6 @@ p {
 
 /*sm*/
 
-
-   
 @media(min-width:768px) {
     h1 {
         font-size: 60px
@@ -65,29 +65,57 @@ p {
         font-size: 20px;
     }
 
-
-/*md+*/
-
-@media(min-width:992px) {
-    h1 {
-        font-size: 80px
+    /* unvisited link */
+    a:link {
+        color: white;
     }
-    h2 {
-        font-size: 30px;
-    }
-}
 
-/*lg*/
-
-@media(min-width:1200px) {
-    h1 {
-        font-size: 100px
+    /* visited link */
+    a:visited {
+        color: green;
     }
-    h2 {
-        font-size: 50px
-    }
-}
 
-#video{
-    text-align: center;
-}
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    }
+    
+    /*sm*/
+    @media(min-width:768px){
+        h1 {
+            font-size: 60px
+        }
+        h2 {
+            font-size: 10px
+        }
+    }
+
+
+    /*md+*/
+    @media(min-width:992px){
+        h1 {
+            font-size: 80px
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    /*lg*/
+    @media(min-width:1200px) {
+        h1 {
+            font-size: 100px
+        }
+        h2 {
+            font-size: 50px
+        }
+    }
+
+    #video {
+        text-align: center;
+    }
