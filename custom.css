@@ -8,14 +8,9 @@ body {
 
 .jumbotron {
     text-align: center;
-}
-
-/*centering image of happy-dog*/
-
-#happy-dog {
-    text-align: center;
 
 }
+
 
 h2 {
     font-family: 'Lora', serif;
@@ -26,12 +21,14 @@ h1 {
     text-align: center;
 }
 
+
 .jumbotron {
     background: #9ACD32;
 }
 
+
 #care {
-    width: 90%;
+    width: 100%;
     color: white;
     text-align: center;
     background: olivedrab;
@@ -53,6 +50,25 @@ p {
 }
 
 
+ /* unvisited link */
+    a:link {
+        color: white;
+    }
+
+    /* visited link */
+    a:visited {
+        color: black;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    }
 
 
 /*sm*/
@@ -65,26 +81,8 @@ p {
         font-size: 20px;
     }
 
-    /* unvisited link */
-    a:link {
-        color: white;
-    }
-
-    /* visited link */
-    a:visited {
-        color: green;
-    }
-
-    /* mouse over link */
-    a:hover {
-        color: hotpink;
-    }
-
-    /* selected link */
-    a:active {
-        color: blue;
-    }
-    
+   
+}
     /*sm*/
     @media(min-width:768px){
         h1 {
